@@ -5,7 +5,7 @@ const port = require("./port")
 
 const app = express();
 
-mongoose.connect('mongodb+srv://dbUser:<1234>@cluster0.o6epbot.mongodb.net/', {
+mongoose.connect('mongodb+srv://dbUser:<>@cluster0.o6epbot.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }) .then(() => {
